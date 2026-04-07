@@ -327,19 +327,10 @@
 }
 
 
-
-
-
 .services-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 60px 40px;
-
-}
-
-
-
-
+    gap: 60px 40px;}
 
 
 .service-item {
@@ -834,6 +825,10 @@
     color: #d9e4ea;
     cursor: pointer;
 
+}
+
+.footer-col li a {
+    text-decoration: none;
 }
 
 

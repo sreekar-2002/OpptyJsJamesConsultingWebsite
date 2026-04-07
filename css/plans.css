@@ -1,0 +1,185 @@
+.plans-hero {
+    padding-top: 150px;
+    padding-bottom: 70px;
+    text-align: center;
+    background: #f2f2f2;
+}
+
+.plans-hero h1 {
+    font-size: 48px;
+    letter-spacing: 4px;
+    color: #163a52;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.plans-hero p {
+    color: #6b7f8c;
+    font-size: 15px;
+}
+
+
+
+.pricing-section {
+    background: #f2f2f2;
+    padding: 40px 0 150px;
+}
+
+
+
+.pricing-container {
+    width: 96%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+
+}
+
+
+
+.price-card {
+
+    width: 33.33%;
+
+    background: white;
+
+    border: 1px solid #ddd;
+
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+
+}
+
+
+
+.card-top {
+
+    text-align: center;
+
+    padding: 55px 45px 40px;
+
+}
+
+
+
+.card-bottom {
+
+    border-top: 1px solid #e5e5e5;
+
+    padding: 45px 45px 60px;
+
+}
+
+
+
+.price-card h3 {
+
+    font-size: 20px;
+
+    color: #174a6a;
+
+    margin-bottom: 18px;
+
+    font-weight: 500;
+
+}
+
+
+
+.price {
+
+    font-size: 80px;
+
+    color: #174a6a;
+
+    margin: 10px 0;
+
+    font-weight: 300;
+
+}
+
+.price span {
+
+    font-size: 22px;
+
+    position: relative;
+
+    top: -35px;
+
+}
+
+
+
+.desc {
+
+    font-size: 15px;
+
+    color: #4c5a63;
+
+    margin: 18px 0;
+
+    line-height: 26px;
+
+}
+
+
+
+.valid {
+
+    font-size: 14px;
+
+    color: #8a9aa5;
+
+    margin-bottom: 28px;
+
+}
+
+
+
+.price-card button {
+
+    background: #174a6a;
+    color: white;
+    border: none;
+    padding: 13px 45px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+
+
+.card-bottom ul {
+
+    list-style: none;
+    line-height: 40px;
+    font-size: 15px;
+    color: #444;
+
+}
+
+
+
+.best {
+
+    background: #f7f7f7;
+
+}
+
+
+
+.best-tag {
+
+    position: absolute;
+    top: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #174a6a;
+    color: white;
+    padding: 7px 16px;
+    font-size: 13px;
+
+}

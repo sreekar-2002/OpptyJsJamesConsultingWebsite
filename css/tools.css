@@ -1,0 +1,267 @@
+.tools-hero {
+
+    padding-top: 150px;
+    padding-bottom: 60px;
+
+    text-align: center;
+
+    background: #f2f2f2;
+
+}
+
+.tools-hero h1 {
+
+    font-size: 46px;
+
+    letter-spacing: 4px;
+
+    color: #163a52;
+
+    margin-bottom: 20px;
+
+    font-weight: 500;
+
+}
+
+.tools-hero p {
+
+    width: 620px;
+
+    margin: auto;
+
+    color: #5d6e78;
+
+    font-size: 15px;
+
+    line-height: 26px;
+
+}
+
+
+
+.tools-section {
+
+    background: #f2f2f2;
+
+    padding-bottom: 120px;
+
+}
+
+
+
+.tools-container {
+
+    width: 70%;
+
+    margin: auto;
+
+}
+
+
+
+.tools-header {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 30px;
+
+}
+
+
+
+.tools-header h3 {
+
+    font-size: 16px;
+
+    color: #333;
+
+    font-weight: 500;
+
+}
+
+
+
+.search-box {
+
+    border-bottom: 1px solid #bbb;
+
+    padding-bottom: 6px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+}
+
+
+
+.search-box input {
+
+    border: none;
+
+    background: none;
+
+    outline: none;
+
+    font-size: 14px;
+
+    width: 220px;
+
+}
+
+
+
+table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    background: white;
+
+}
+
+
+
+thead {
+
+    font-size: 13px;
+
+    color: #666;
+
+}
+
+
+
+thead tr {
+
+    border-bottom: 1px solid #e5e5e5;
+
+}
+
+
+
+th {
+
+    text-align: left;
+
+    padding: 16px;
+
+    font-weight: 500;
+
+}
+
+
+
+tbody tr {
+
+    border-bottom: 1px solid #eee;
+
+    transition: .3s;
+
+}
+
+
+
+tbody tr:hover {
+
+    background: #fafafa;
+
+}
+
+
+
+td {
+
+    padding: 20px 16px;
+    font-size: 14px;
+    color: #333;
+}
+
+
+
+.folder {
+    font-size: 20px;
+    color: #888;
+    margin-right: 12px;
+
+}
+
+
+
+.member {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+
+
+
+.member img {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+
+}
+
+
+
+/* skeleton loading */
+
+.skeleton td {
+
+    height: 70px;
+
+    background: linear-gradient(90deg,
+            #eee 25%,
+            #f7f7f7 37%,
+            #eee 63%);
+
+    background-size: 400% 100%;
+
+    animation: loading 1.2s infinite;
+
+}
+
+
+
+@keyframes loading {
+
+    0% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+
+}
+
+
+
+/* fade animation */
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fade .6s forwards;
+
+}
+
+
+
+@keyframes fade {
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
